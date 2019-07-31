@@ -1,0 +1,9 @@
+net1=int(input())
+ltt1=list(map(int,input().split()))[:nt1]
+div=int(net1/2)
+art1=sum(ltt1[:div])//len(ltt1[:div])
+art2=sum(ltt1[div:])//len(ltt1[div:])
+if(art1==art2):
+  print("yes")
+else:
+  print("no")
